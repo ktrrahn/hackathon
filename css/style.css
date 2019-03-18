@@ -2,7 +2,7 @@
 ------------------------------------
 	Labs - Design Studio
 	Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -121,10 +121,10 @@ ul {
 }
 
 .section-title h2 span {
-	background: #2be6ab;
+	background: green;
 	padding: 0 3px 5px;
 	display: inline-block;
-	color: #0b1033;
+	color: white;
 }
 
 .section-title:after {
