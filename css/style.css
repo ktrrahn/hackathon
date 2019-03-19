@@ -26,6 +26,14 @@ h1
 	margin: 0;
 	color: white;
 	background-color: green;
+	border: 1px solid black;
+	text-align: center;
+	width: 45%;
+	background-position: center;
+	padding: 5px;
+	margin: 5px;
+	margin-left: 360px;
+
 }
 h2,
 h3,
@@ -627,7 +635,7 @@ ul {
 }
 
 #testimonial-slide .owl-dots .owl-dot.active {
-	background: aqua;
+	background: blue;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
