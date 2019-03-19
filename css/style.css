@@ -267,7 +267,7 @@ ul {
 }
 
 .header-section {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -406,7 +406,7 @@ ul {
 
 .owl-carousel #progressBar {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	z-index: 1;
 }
@@ -1640,7 +1640,7 @@ ul {
 		display: block;
 		color: #333;
 		font-size: 34px;
-		position: absolute;
+		position: fixed;
 		right: 30px;
 		padding-top: 10px;
 	}
