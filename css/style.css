@@ -382,7 +382,7 @@ ul {
 
 .owl-carousel .owl-nav .owl-prev:hover,
 .owl-carousel .owl-nav .owl-next:hover {
-	background: ;
+	background: blue;
 }
 
 .owl-carousel .owl-nav .owl-next {
@@ -627,7 +627,7 @@ ul {
 }
 
 #testimonial-slide .owl-dots .owl-dot.active {
-	background: #6a23b5;
+	background: aqua;
 	margin-bottom: 25px;
 	margin-top: 25px;
 }
