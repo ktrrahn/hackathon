@@ -1265,10 +1265,14 @@ ul {
 	color: #2be6ab;
 }
 
-.btn-btn
+.btn-lg
 {
  background-color: green;
- 
+ background-position: center;
+ color: black;
+ border: solid 1px black;
+ margin-bottom: 10px;
+
 }
 
 .search-form .search-btn:focus,
