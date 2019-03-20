@@ -26,6 +26,11 @@ npm install my-crazy-module --save
 *In jumbotron put Academies Hacks in the middle
 * put date and time underneath similar to Klein hacks
 
+*Add pics and logos for Team
+*Use forum for workshops
+*Add for sponsors
+
+*
 
 Windows:
 
