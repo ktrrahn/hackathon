@@ -286,8 +286,8 @@ ul {
 }
 
 .header-section .logo img {
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
@@ -356,10 +356,14 @@ ul {
 .hero-content .hero-center {
 	display: table-cell;
 	vertical-align: middle;
+	horizontal-align: left;
 }
 .hero-center img{
-	width: 500px;
-	height: 500px;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	margin-left: 0;
+	align-content: left;
 }
 
 .hero-content p {
