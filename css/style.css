@@ -286,8 +286,8 @@ ul {
 }
 
 .header-section .logo img {
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
@@ -314,6 +314,7 @@ ul {
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+	z-index = 1;
 }
 
 .header-section .menu-list li a:hover,
@@ -347,30 +348,31 @@ ul {
 	position: absolute;
 	width: calc(100% - 210px);
 	height: 100%;
-	margin-left: 105px;
+	margin-left: 0px;
 	display: table;
-	text-align: center;
+	text-align: left;
 	z-index: 5;
 }
 
 .hero-content .hero-center {
 	display: table-cell;
-	vertical-align: middle;
-	horizontal-align: left;
+	vertical-align: top;
+	align: left;
 }
 .hero-center img{
-	width: 50px;
-	height: 50px;
+	width: 200px;
+	height: 200px;
 	position: relative;
 	margin-left: 0;
 	align-content: left;
+	z-index = 100;
 }
 
 .hero-content p {
 	font-size: 24px;
 	color: #0b1033;
 	margin-bottom: 0;
-	margin-top: 35px;
+	margin-top: 0px;
 }
 
 .owl-carousel .owl-nav {
