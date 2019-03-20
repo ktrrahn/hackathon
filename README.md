@@ -16,6 +16,16 @@ OS X & Linux:
 ```sh
 npm install my-crazy-module --save
 ```
+#customer
+*logo out of middle to upper left corner
+*have four buttons on main screens
+  *participant registration
+  *volunteer registration
+  *mentor registration
+  * more information
+*In jumbotron put Academies Hacks in the middle
+* put date and time underneath similar to Klein hacks
+
 
 Windows:
 
