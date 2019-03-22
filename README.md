@@ -42,7 +42,7 @@ npm install my-crazy-module --save
     *Added logo to top left corner
 
   *Time and Date
-    *Added the date and time on the main page
+    *Added the date and time on the main page (done)
     *Added green background and white text
     *Make navbar's background color to blue
     *Made buttons active
@@ -55,7 +55,10 @@ Replace pictures with logos of sponsors
 add descriptions to workshops + levels (beginner, intermediate, advanced)
 changed the colors of the arrows to be green to match headers
 add colors to the workshop sections
-change navbar button text as white and change color of buttons
+change navbar button text as white and change color of buttons*
+
+
+*Adjust grid layout to make content in the middle*
 
 
 Windows:
