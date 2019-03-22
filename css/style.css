@@ -1295,16 +1295,16 @@ ul {
 	grid-area:1/2/2/3;
 }
 #info1{
-	grid-area: 1/2/2/3;
+	grid-area:2/2/2/3;
 }
 #info2{
-	grid-area: 1/3/2/4;
+	grid-area: 2/3/2/4;
 }
 #but1{
-	grid-area: 1/2/3/3;
+	grid-area: 1/2/2/3;
 }
 #but2{
-	grid-area: 1/2/3/3;
+	grid-area: 1/2/2/3;
 }
 #but3{
 	grid-area: 1/2/3/3;
