@@ -49,6 +49,15 @@ npm install my-crazy-module --save
     *Adjusted size of logo
     *Aligned headers (date and time) properly*
 
+
+*3/22
+Replace pictures with logos of sponsors
+add descriptions to workshops + levels (beginner, intermediate, advanced)
+changed the colors of the arrows to be green to match headers
+add colors to the workshop sections
+change navbar button text as white and change color of buttons
+
+
 Windows:
 
 ```sh
