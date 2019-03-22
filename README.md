@@ -58,7 +58,6 @@ add colors to the workshop sections
 change navbar button text as white and change color of buttons*
 
 
-*Adjust grid layout to make content in the middle*
 
 
 Windows:
