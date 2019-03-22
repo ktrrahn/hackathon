@@ -23,14 +23,31 @@ npm install my-crazy-module --save
   *volunteer registration
   *mentor registration
   * more information
-*In jumbotron put Academies Hacks in the middle
-* put date and time underneath similar to Klein hacks
 
-*Add pics and logos for Team
-*Use forum for workshops
-*Add for sponsors
+  *In jumbotron put Academies Hacks in the middle
+  * put date and time underneath similar to Klein hacks
+  *Add pics and logos for Team
+  *Use forum for workshops
+  *Add for sponsors*
 
-*
+*link to website: https://ktrrahn.github.io/hackathon/
+
+*Change History
+  *Add files via storage
+  *Changing the names to nav
+  *Change the background and color of the title section
+  *Adjusted the span to make it pink (testing condition)
+  *Changes to Logo
+    *Change the jumbotron pictures
+    *Added logo to top left corner
+
+  *Time and Date
+    *Added the date and time on the main page
+    *Added green background and white text
+    *Make navbar's background color to blue
+    *Made buttons active
+    *Adjusted size of logo
+    *Aligned headers (date and time) properly*
 
 Windows:
 
