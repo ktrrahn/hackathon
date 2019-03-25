@@ -18,6 +18,11 @@ body {
 img {
 	max-width: 100%;
 }
+#contactpic{
+	height: 400px;
+	width: 800px;
+	vertical-align: center;
+}
 
 h1
 {
