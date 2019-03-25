@@ -699,7 +699,7 @@ ul {
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	font-weight: 400;
-	background-color: #0082cc;
+	background-color: rgba(#0082cc, 0);
 }
 
 .service .service-text p,
