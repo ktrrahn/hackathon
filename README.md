@@ -1,5 +1,4 @@
-# Product Name
-> Short blurb about what your product does.
+*link to website: https://ktrrahn.github.io/hackathon/
 
 #customer
 *logo out of middle to upper left corner
@@ -15,7 +14,7 @@
   *Use forum for workshops
   *Add for sponsors*
 
-*link to website: https://ktrrahn.github.io/hackathon/
+
 
 
 <<<<<<< HEAD
@@ -72,3 +71,13 @@ change navbar button text as white and change color of buttons*
     *changed text of buttons to white
     * changed home button color to be green and white
     * changed browser button to have green background with white text
+    * made background of workshops blue, added schedule
+    * added information about the Workshops
+    * changed the logo to the Academies Hacks logo
+    *fixed grid layout
+
+#status
+*we need links for mentors and more info
+*we need to make the FAQ, Get Involved, and the About page
+*these changes could be done within the next two weeks
+*we have no questions about how to make these changes, we would just need time
