@@ -67,4 +67,8 @@ change navbar button text as white and change color of buttons*
   *working on grid layout
   *added Workshops
   *changed the colors to match ACL logo
-  
+
+  *March 25
+    *changed text of buttons to white
+    * changed home button color to be green and white
+    * changed browser button to have green background with white text

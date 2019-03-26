@@ -191,7 +191,7 @@ ul {
 }
 
 .site-btn.btn-2 {
-	background: #6a23b5;
+	background: green;
 	color: #fff;
 	font-weight: 400;
 }
@@ -335,7 +335,7 @@ ul {
 
 .header-section .menu-list li.active a {
 	background: #0082cc;
-	color: black;
+	color: white;
 }
 #bigpicsch{
 	height: 800px;
