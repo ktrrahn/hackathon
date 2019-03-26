@@ -5,6 +5,14 @@
 *we need to make the FAQ, Get Involved, and the About page
 *these changes could be done within the next two weeks
 *we have no questions about how to make these changes, we would just need time*
+
+*date time look like buttons. Make jumbotron pic opaque.
+move buttons down and together; move workshop text-white; don't put sponsor name in text
+put schedule on main page*
+
+
+
+
   ```
 
   ## Release History
