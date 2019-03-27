@@ -377,6 +377,7 @@ ul {
 	margin-left: 0;
 	align-content: left;
 	z-index = 100;
+	opacity:0.5;
 }
 
 .hero-content p {
@@ -390,6 +391,10 @@ ul {
 	position: absolute;
 	top: 50%;
 	width: 100%;
+}
+
+.hero-item{
+	opacity:0.5;
 }
 /*
 .owl-carousel .owl-nav .owl-prev,
@@ -698,7 +703,9 @@ ul {
 	margin-right: 30px;
 
 }
-
+#workshopheader h2{
+	color:white;
+}
 .service .service-text h2,
 .service .icon-box-text h2,
 .icon-box .service-text h2,
@@ -708,7 +715,7 @@ ul {
 	margin-bottom: 20px;
 	font-weight: 400;
 	background-color: rgba(#0082cc, 0);
-	color: black;
+	color: white;
 }
 
 .service .service-text p,
@@ -716,7 +723,7 @@ ul {
 .icon-box .service-text p,
 .icon-box .icon-box-text p {
 	font-size: 15px;
-	color:black;
+	color:white;
 }
 
 .service.light h2,

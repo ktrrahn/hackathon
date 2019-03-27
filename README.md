@@ -6,9 +6,7 @@
 *these changes could be done within the next two weeks
 *we have no questions about how to make these changes, we would just need time*
 
-*date time look like buttons. Make jumbotron pic opaque.
-move buttons down and together; move workshop text-white; don't put sponsor name in text
-put schedule on main page*
+
 
 
 
@@ -50,7 +48,7 @@ put schedule on main page*
       * changed the logo to the Academies Hacks logo
       *fixed grid layout*##
 
-      #customer
+#customer
       *logo out of middle to upper left corner
       *have four buttons on main screens
         *participant registration
@@ -64,6 +62,10 @@ put schedule on main page*
         *Use forum for workshops
         *Add for sponsors*
 
+        *date time look like buttons. Make jumbotron pic opaque.
+        move buttons down and together; move workshop text-white; don't put sponsor name in text
+        put schedule on main page*
+        
 
 <<<<<<< HEAD
   *Time and Date
