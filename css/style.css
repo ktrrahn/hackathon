@@ -29,14 +29,14 @@ h1
 	font-family: "Oswald", sans-serif;
 	padding: 0;
 	margin: 0;
-	color: white;
-	border: 1px solid black;
+	color: blue;
+	font-size: 100px;
 	text-align: center;
 	width: 45%;
 	background-position: center;
 	padding: 5px;
 	margin: 5px;
-	margin-left: 360px;
+	margin-left: 620px;
 
 }
 h2,
@@ -1317,7 +1317,7 @@ ul {
 	margin-top: 50px;
 	vertical-align: center;
 	align: center;
-	margin-left:400px;
+	margin-left:650px;
 	margin-right: auto;
 	display: grid;
 	height: 800px;
