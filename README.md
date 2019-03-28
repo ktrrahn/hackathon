@@ -7,10 +7,6 @@
 *we have no questions about how to make these changes, we would just need time*
 
 
-
-
-
-
   ```
 
   ## Release History
@@ -65,7 +61,7 @@
         *date time look like buttons. Make jumbotron pic opaque.
         move buttons down and together; move workshop text-white; don't put sponsor name in text
         put schedule on main page*
-        
+
 
 <<<<<<< HEAD
   *Time and Date
