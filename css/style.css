@@ -1324,7 +1324,7 @@ ul {
 	height: 800px;
 	grid-template-rows: repeat(2, 50px);
 	grid-template-columns: repeat(2, 250px);
-	grid-column-gap: 0px;
+
 
 }
 .infoclass{
