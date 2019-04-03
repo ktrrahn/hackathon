@@ -173,7 +173,30 @@ ul {
 /*------------------------
 	Common elements
 --------------------------*/
+.aboutp{
+	color:black;
+}
+.involvepage{
+	color: blue;
+}
+.involvetitle{
+	font-size: 60px;
+	color:black;
+	margin: 30px;
+}
+.involve2{
+	margin: 30px;
+	color: black;
+}
+.involve3{
+	margin: 30px;
+	color: black;
 
+}
+.involvep{
+	margin: 30px;
+	color: black;
+}
 .site-btn {
 	font-family: "Oswald", sans-serif;
 	font-size: 15px;
@@ -207,22 +230,44 @@ ul {
 	text-decoration: none;
 	outline: none;
 }
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  });
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
-</script>
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
 /*------------------
 	Preloder
 --------------------*/
@@ -911,21 +956,7 @@ for (i = 0; i < coll.length; i++) {
 	font-size: 14px;
 }
 
-.involve h1{
-	font-size: 20px;
-	background-color: #82DCE4;
-	color:black;
-	margin: 50px;
-}
-.involve h2{
 
-}
-.involve h3{
-
-}
-.involve p{
-
-}
 /*------------------------
 	Footer section
 --------------------------*/
