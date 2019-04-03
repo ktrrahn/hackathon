@@ -173,7 +173,30 @@ ul {
 /*------------------------
 	Common elements
 --------------------------*/
+.aboutp{
+	color:black;
+}
+.involvepage{
+	color: blue;
+}
+.involvetitle{
+	font-size: 60px;
+	color:black;
+	margin: 30px;
+}
+.involve2{
+	margin: 30px;
+	color: black;
+}
+.involve3{
+	margin: 30px;
+	color: black;
 
+}
+.involvep{
+	margin: 30px;
+	color: black;
+}
 .site-btn {
 	font-family: "Oswald", sans-serif;
 	font-size: 15px;
@@ -911,21 +934,7 @@ for (i = 0; i < coll.length; i++) {
 	font-size: 14px;
 }
 
-.involve h1{
-	font-size: 20px;
-	background-color: #82DCE4;
-	color:black;
-	margin: 50px;
-}
-.involve h2{
 
-}
-.involve h3{
-
-}
-.involve p{
-
-}
 /*------------------------
 	Footer section
 --------------------------*/
