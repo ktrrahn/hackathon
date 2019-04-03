@@ -3,9 +3,9 @@
 <head>
 	<title>Labs - Design Studio</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="Labs - Design Studio">
-	<meta name="keywords" content="lab, onepage, creative, html">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" panel="Labs - Design Studio">
+	<meta name="keywords" panel="lab, onepage, creative, html">
+	<meta name="viewport" panel="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
@@ -18,12 +18,45 @@
 	<link rel="stylesheet" href="css/flaticon.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+<style>
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
 
+.active, .accordion:hover {
+	background-color: #ccc;
+}
 
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+.accordion:after {
+	panel: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	panel: "\2212";
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+</style>
+
 
 </head>
 <body>
@@ -54,8 +87,6 @@
 		</nav>
 	</header>
 	<!-- Header section end -->
-
-
 	<!-- Page header -->
 	<div class="page-top-section">
 		<div class="overlay"></div>
@@ -70,81 +101,87 @@
 		</div>
 	</div>
 	<!-- Page header end -->
-	<button class="collapsible">What is Academies Hacks? </button>
-	<div class="content">
+	<button class="accordion">What is Academies Hacks? </button>
+	<div class="panel">
 	  <p>Academies Hacks is a student run hackthon by AET, where you will have
 			twelve hours to learn to code and/or  </p>
 	</div>
 
-	<button class="collapsible">When is Academies Hacks? </button>
-	<div class="content">
+	<button class="accordion">When is Academies Hacks? </button>
+	<div class="panel">
 	  <p>Academies Hacks is will start on Saturday, May 18th, from 9 AM to 9PM. Registration closes....</p>
 	</div>
 
+<<<<<<< HEAD
+	<button class="accordion"> Who Can Attend? </button>
+	<div class="panel">
+		<p> Academies Hacks is open to any and all high school students. If you are not a
+=======
 	<button class="collapsible"> Who Can Attend? </button>
 	<div class="content">
 		<p> Academies Hacks is open to high school and middle school students. If you are not a
+>>>>>>> 49c7ab634687270935b4e5bf44309dd49060dfc4
 high school student but would like to attend, consider coming in as a mentor or volunteer </p>
 	</div>
 
-	<button class="collapsible">Is there any Cost?</button>
-	<div class="content">
+	<button class="accordion">Is there any Cost?</button>
+	<div class="panel">
 	  <p>Academies Hacks is a student run hackthon by AET, where you will have
 			twelve hours to learn to code and/or work with friends to make your ideas come to life
 		</p>
 	</div>
 
-	<button class="collapsible">Is there a Deadline?</button>
-	<div class="content">
+	<button class="accordion">Is there a Deadline?</button>
+	<div class="panel">
 	  <p>Registration will be open starting...</p>
 	</div>
 
-	<button class="collapsible">Do you have a Code of Conduct?</button>
-	<div class="content">
+	<button class="accordion">Do you have a Code of Conduct?</button>
+	<div class="panel">
 	  <p>Yes we do...</p>
 	</div>
 
-	<button class="collapsible">Isn't hacking illegal?</button>
-	<div class="content">
+	<button class="accordion">Isn't hacking illegal?</button>
+	<div class="panel">
 	  <p> In the context of a hackathon, "hacking" is to build a real application over the length of the event.
 			It's important to not confuse this with illegal hacking,
 			which is gaining unauthorized acces to a computer.
 		</p>
 	</div>
 
-	<button class="collapsible">Do I need a team?</button>
-	<div class="content">
+	<button class="accordion">Do I need a team?</button>
+	<div class="panel">
 	  <p> If you already have a team of 2-4 people you want to work with,
 			that's awesome! If not don't worry because we'll have an opportunity
 			for people to join a team if they need one.
 		</p>
 	</div>
 
-	<button class="collapsible">What if I don't know how to code?</button>
-	<div class="content">
+	<button class="accordion">What if I don't know how to code?</button>
+	<div class="panel">
 	  <p> Come to Academies Hacks! Coding is fun, creative, and an important skill,
 			and Academies Hacks is the perfect way to learn. We'll have workshops and mentors to help guide
 			you
 		</p>
 	</div>
 
-	<button class="collapsible">What should I bring?</button>
-	<div class="content">
+	<button class="accordion">What should I bring?</button>
+	<div class="panel">
 	  <p>You'll need to bring your laptop, phone, and chargers. We suggest
 			you bring a set of nice clothes for demos; you'll want to make the best
 			impression.
 		</p>
 	</div>
 
-	<button class="collapsible">Will there be food?</button>
-	<div class="content">
+	<button class="accordion">Will there be food?</button>
+	<div class="panel">
    <p>
 		 Yes. Lots and lots of food.
 	 </p>
 	</div>
 
-	<button class="collapsible">What if I have dietary concerns?</button>
-	<div class="content">
+	<button class="accordion">What if I have dietary concerns?</button>
+	<div class="panel">
 	  <p>
 			We'll be providing meals for most everyone at Academies Hacks,
 			but if you have speicla conerns please let us know.
@@ -155,13 +192,33 @@ high school student but would like to attend, consider coming in as a mentor or 
 
 	</p>
 
+	<script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var panel = this.nextElementSibling;
+	    if (panel.style.maxHeight){
+	      panel.style.maxHeight = null;
+	    } else {
+	      panel.style.maxHeight = panel.scrollHeight + "px";
+	    }
+	  });
+	}
+	</script>
+
+[if lt IE 9]
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	[endif]
+
 	<!-- Footer section -->
 	<footer class="footer-section">
 		<h2>2017 All rights reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></h2>
 	</footer>
 	<!-- Footer section end -->
-
-
 
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/jquery-2.1.4.min.js"></script>
